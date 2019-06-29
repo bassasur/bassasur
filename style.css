@@ -1,0 +1,109 @@
+/* StyleSheet For BassAsur */
+
+@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand');
+
+
+
+/* Body */
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Section */
+section.section{
+    padding-top:25px;
+}
+
+/* Navbar */
+
+nav.navbar a.navbar-item{
+    font-family:'Quicksand', sans-serif;
+    font-weight: bold;
+
+}
+
+nav.navbar a.navbar-item:hover{
+    color:#FF5252;
+}
+
+nav.navbar a.button.is-primary{
+    background-color:#FF5252;
+
+    border-radius: 4px;
+    cursor: pointer;
+
+    font-size:14px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav.navbar a.button.is-primary:hover{
+    transform: scale(1.2);
+}
+
+/* Columsn  */
+
+div#socialmedia {
+    text-align: center;
+}
+
+div#socialmedia h2{
+    font-family:'Quicksand', sans-serif;
+    font-size:30px;
+    font-weight: bold;
+    color:#212121;
+    margin-top:50px;
+    margin-bottom: 10px;
+}
+
+div.columns .column p{
+    font-family:'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size:23px;
+}
+
+div.columns .column.socialmed img:hover{
+   
+    transform: scale(1.1);
+    
+}
+
+/* Random h2 */
+
+div#ourwork{
+    text-align:center;
+}
+
+div#ourwork h2{
+    font-family:'Quicksand', sans-serif;
+    font-size:32px;
+    font-weight: bold;
+    color:#212121;
+    margin-top:50px;
+    margin-bottom: 15px;
+}
+
+button.button.is-danger.watchvideos{
+    transition: all 0.2s ease-in-out;
+}
+
+button.button.is-danger.watchvideos:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* Contact page wtf  */
+
+div.card-content{
+    background: #9E1B38;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #9E1B38, #FFD98E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #9E1B38, #FFD98E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+
